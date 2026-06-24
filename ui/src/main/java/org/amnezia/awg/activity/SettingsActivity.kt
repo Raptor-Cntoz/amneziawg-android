@@ -5,6 +5,7 @@
 package org.amnezia.awg.activity
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
@@ -80,6 +81,14 @@ class SettingsActivity : AppCompatActivity() {
             }
             preferenceManager.findPreference<Preference>("log_viewer")?.setOnPreferenceClickListener {
                 startActivity(Intent(requireContext(), LogViewerActivity::class.java))
+                true
+            }
+            preferenceManager.findPreference<Preference>("support_bot")?.setOnPreferenceClickListener {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/mohandesvpnx_bot")))
+                true
+            }
+            preferenceManager.findPreference<Preference>("support_channel")?.setOnPreferenceClickListener {
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/mohandesvpnx")))
                 true
             }
             val kernelModuleEnabler = preferenceManager.findPreference<Preference>("kernel_module_enabler")

@@ -237,7 +237,7 @@
     <string name="tunnel_create_success">Successfully created tunnel “%s”</string>
     <string name="tunnel_error_already_exists">Tunnel “%s” already exists</string>
     <string name="tunnel_error_invalid_name">Invalid name</string>
-    <string name="tunnel_list_placeholder">با استفاده از دکمه + کانفیگ مورد نظر خود را وارد کنید</string>
+    <string name="tunnel_list_placeholder">با استفاده از دکمه + کانفیگ خود را وارد کنید</string>
     <string name="tunnel_name">Tunnel Name</string>
     <string name="tunnel_on_error">Unable to turn tunnel on (wgTurnOn returned %d)</string>
     <string name="tunnel_dns_failure">Unable to resolve DNS hostname: “%s”</string>
@@ -261,6 +261,6 @@
     <string name="biometric_auth_error">Authentication failure</string>
     <string name="biometric_auth_error_reason">Authentication failure: %s</string>
     <string name="import_disclaimer">مطمئن شوید فایل کانفیگ را از ربات رسمی زیر دریافت میکنید.&#10;&#10;<a href="https://t.me/mohandesvpnx_bot">ربات مهندس وی پی ان ایکس</a>&#10;&#10;<a href="https://t.me/mohandesvpnx">کانال تلگرام</a></string>
-    <string name="tunnel_status_connected">متصل</string>
+    <string name="tunnel_status_connected">متصل شد</string>
     <string name="tunnel_status_connecting">در حال اتصال...</string>
 </resources>

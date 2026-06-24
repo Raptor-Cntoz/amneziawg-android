@@ -41,4 +41,13 @@
         android:summaryOff="@string/allow_remote_control_intents_summary_off"
         android:summaryOn="@string/allow_remote_control_intents_summary_on"
         android:title="@string/allow_remote_control_intents_title" />
+		<Preference
+    android:key="support_bot"
+    android:title="ربات مهندس VpnX"
+    android:summary="https://t.me/mohandesvpnx_bot" />
+
+<Preference
+    android:key="support_channel"
+    android:title="کانال پشتیبانی"
+    android:summary="https://t.me/mohandesvpnx" />
 </androidx.preference.PreferenceScreen>
